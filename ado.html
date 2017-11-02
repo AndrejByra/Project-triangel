@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<TITLE>CSS</TITLE>
+	<META CHARSET="UTF-8">
+	<meta Name="description" Content="popis">	
+<meta Name="keywords" Content="Global log ,SoS,Dneperska">
+<meta Name="Author" Content="Milan Timko">
+<meta HTTP-EQUIV="refresh" Content="30">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript">
+	function shortAlert()
+	{
+		var Name=document.getElementById('Name').value;
+		var Surname=document.getElementById('Surname').value;
+		
+		alert("Hello MR."+" "+Name+" "+Surname+" "+"You press the button OK!");
+	//}
+	/*function div() {
+		var Name=document.getElementById('Name').value;
+		var Surname=document.getElementById('Surname').value;*/
+		document.getElementById('output').innerHTML="Hello MR!"+" "+Name+" "+Surname+" "+"You press the button OK!";
+}
+function printfmessage()
+{
+	documen.getElementsById('mso').innerHTML="asas";	
+}
+</script>
+
+</head> 
+
+<h1>Webové technologie</h1>
+<span>Meno: </span><span class="name">Andrej</span><br>
+<span class="name">Byra</span>
+<ul type="1" >
+	<li>WEB</li>
+	<ul>
+		<li>HTML</li>
+	</ul>
+	<li>PRO</li>
+	<li>DBS</li>
+	<table border="0" id="formular">
+		<tr>
+			<td><label>Name</label> </td>
+			<td><input type="text" name="name"></td>
+			<td ><label>Last Name</label></td>
+			<td><input type="text" name="lastname"></td>
+		</tr>
+		<tr>
+			<td>Date</td>
+			<td><input type="date" name="date" id="bd"></td>
+			<td>Gender</td>
+			<td><input type="radio" name="gender" value="1" checked>Male 
+			<br>
+				<input type="radio" name="gender" value="2">Female</td>
+			</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><input type="submit" name="odoslat" value="Submit"></td>	
+		</tr>    
+	</table>
+	<div class="undertable">Show Gender <select>
+		<option value="Both" selected>Both</option>
+		<option value="Female">Female</option>
+		<option value="Male">Male</option>
+		</select>
+		<input type="checkbox" name="age" value="1"><span>Age</span>
+	</div>
+</ul>
+
+<p1>Operačné systémy</p1>
+<div>
+<li>Windows</li>
+<li>Android</li>
+<li>Linux</li>
+</div>
+
+<br><div id="ahoj"> ahoj ako sa mas?<br>
+	mam sa dobre
+
+	</div>
+	<br>
+<p2 img src="rozvrh.jpg" id="txt">Text (z lat. texere - tkať, stavať; textum - utkané) je ustálený jazykový prejav, ktorý je výsledkom rečovej činnosti, t. j. jazykový útvar, ktorý vznikol konkrétnou realizáciou jazykového systému.
+Súbor textov je literatúra. Text je jazykovo-tematická štruktúra so zámerným usporiadaním výpovedí, ktorou sa vyjadruje relatívne uzavretý myšlienkový komplex. Je to semiotická entita, jazykový znak, ktorý má sigmatický aspekt (textom sa označujú predmety, deje, udalosti, vlastnosti), syntaktický aspekt (text sa vzťahuje aj na iné prejavy z oblasti verbálnej alebo mimoverbálnej), sémantický aspekt (text má vždy istý obsah, istý odraz vo vedomí človeka) a pragmatický aspekt (text je závislý od adresáta, od situácie a rozličných sociálnych momentov).
+Pojem textu je v istom zmysle synonymum všeobecného pojmu jazykového prejavu i pojmu komunikátu.
+Z hľadiska textológie sa text chápe buď ako konečný jazykový tvar činnosti autora na literárnom diele za daných okolností a podmienok, alebo ako grafický zápis výsledku tejto činnosti umožňujúci ho ďalej odovzdávať alebo reprodukovať.</p2>
+
+<table border="1" width="100%">
+	<th>Meno</th>
+	<th>Priezvysko</th>
+	<tr>
+	<td>Andrej</td>
+	<td>Byra</td>
+	</tr>
+	<td>Andrej</td>
+	<td>Byra</td>
+	<tr>
+	<td>Andrej</td>
+	<td>Byra</td>
+	</tr>
+	<tr>
+	<td>Andrej</td>
+	<td>Byra</td>
+	</tr>
+	<td>Andrej</td>
+	<td>Byra</td>
+	<tr>
+	<td>Andrej</td>
+	<td>Byra</td>
+	</tr>
+    <tr>
+	<td>Andrej</td>
+	<td>Byra</td>
+	</tr>
+</table>
+
+	<Table border="0" width="30%">
+			<caption>Tabulka</caption>
+			<tr>
+				<td>Name</td>
+				<td><input type="text" name="Name" id="Name"></td>
+
+				</tr>
+				<tr>
+					<td>Surname</td>
+					<td><input type="text" name="Surname" id="Surname"></td>
+				</tr>
+				<tr>
+					<td><input type="reset" name="reset" value="reset"> </td>
+					<td><button id="mso" onmouseover="printfmessage" onclick="shortAlert()">OK</button></td>			
+					</Table>
+					<div id="output"></div>
+				</body>
+					</html>
+					
+					
+
