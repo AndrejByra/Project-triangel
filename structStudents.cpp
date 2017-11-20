@@ -157,16 +157,20 @@ int main()
 	   }
    }
    printf("\n");
-	// 10. sort students by salary ascending and write down the list
+  	// 10. sort students by salary ascending and write down the list
     printf("\nSort students by salary ascending: ");
    int j;
-   int sort;
+   float sort;
+   char sortName[20];
    for(i=0;i<20-1;i++){
    for(j=i+1;j<20;j++){
-   if( student[i].salary<student[j].salary){
+   if( student[i].salary>student[j].salary){
    sort=student[i].salary;
    student[i].salary=student[j].salary;
    student[j].salary=sort;
+   strcpy(sortName, student[i].name);
+   strcpy(student[i].name,student[j].name);
+   strcpy(student[j].name, sortName);
     }
 	}
     }  
